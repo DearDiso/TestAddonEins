@@ -1,0 +1,20 @@
+<Ui>
+  
+  <Script file="lib.lua" />
+  
+  <Frame name="AddonTestEinsRootFrame">
+  
+  <Scripts>
+  
+    <Onload>
+      self:RegisterEvent("PLAYER_ENTERED_WORLD");
+      self:RegisterEvent("PLAYER_REGEN_DISABLED");
+      self:RegisterEvent("PLAYER_ENTERING_COMBAT");
+    </OnLoad>
+  
+    </OnEvent function="eventHandler" />
+    
+  </Scripts>
+
+  </Frame>
+</Ui>
