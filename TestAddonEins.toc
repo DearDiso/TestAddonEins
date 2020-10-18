@@ -1,0 +1,10 @@
+# METADATA
+
+## Interface: 90001
+## Title: Test Addon Eins
+## Author: DearDiso
+## Version: 0.0.1
+
+# FILES
+
+main.xml
