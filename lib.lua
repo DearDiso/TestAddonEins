@@ -4,10 +4,10 @@ function eventHandler(self, event, ...)
     print("ENTER WORLD")
     
   elseif event == "PLAYER_REGEN_DISABLED" then
-    print("GREIFT AN")
+    print("Richtiger Kampf, DMG wurde gemacht !")
     
   elseif event == "PLAYER_ENTERING_COMBAT" then
-    print("AUTOATTACK GEKLICKT")
+    print("Rechte Maustaste")
     
   end
 
